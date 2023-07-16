@@ -1,1 +1,25 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #F4FCFD;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav ul li a.active {
+  color: #04a6c2; /* Specify the color for the active link */
+}
+
+.custom-btn {
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */

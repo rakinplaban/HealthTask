@@ -1,0 +1,29 @@
+body{
+    background-color: #F4FCFD;
+}
+
+nav {
+    // background-color: #333;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          color: #333;
+          text-decoration: none;
+          padding: 10px 20px;
+          &.active {
+            color: #04a6c2; /* Specify the color for the active link */
+          }
+        }
+      }
+    }
+  }
+
+.custom-btn{
+    background-color: aqua;
+}
+  
