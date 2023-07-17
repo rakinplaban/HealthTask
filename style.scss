@@ -39,3 +39,32 @@ nav {
     color:azure;
 }
   
+
+#nwe{
+  background-color: #F4FCFD;
+  display: flex;
+}
+
+#nwe_1 .nwe_2{
+  color: #04a6c2;
+}
+
+#nwe .custom-btn{
+  background-color: #04a6c2;
+  font-weight: bold;
+  color:azure;
+}
+
+
+#nwe_1 {
+  flex-grow: 1;
+  margin-right: 20px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+#image-container {
+  margin-top: 30px;
+  flex-shrink: 0;
+  margin-right: 132px;
+}
